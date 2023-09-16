@@ -6,8 +6,13 @@ import AuthPage from './pages/AuthPage';
 import HomePage from './pages/HomePage';
 
 function App() {
+  // useEffect(() => {
+  //   console.log('hello world');
+  // }, []);
+ 
   return (
     <Layout>
+      {/* <HomePage/> */}
       <Switch>
         <Route path='/' exact>
           <HomePage />

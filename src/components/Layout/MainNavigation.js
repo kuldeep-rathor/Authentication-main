@@ -6,6 +6,7 @@ import AuthContext from "../../store/auth-context";
 
 const MainNavigation = () => {
   const authCtx = useContext(AuthContext);
+  console.log(authCtx)
   const isLoggedIn = authCtx.isLoggedIn;
   return (
     <header className={classes.header}>
